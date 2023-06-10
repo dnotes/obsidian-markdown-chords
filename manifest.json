@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-markdown-chords",
+	"name": "Markdown Chords",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Converts chords ",
+	"author": "David Hunt",
+	"authorUrl": "https://dnotes.net",
+	"isDesktopOnly": false
+}

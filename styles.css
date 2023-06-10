@@ -1,8 +1,39 @@
-/*
-
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
-
-If your plugin does not need CSS, delete this file.
-
-*/
+:root {
+	--chord-diagram-font-size: 10px;
+}
+.chord {
+	display: inline-block;
+	position: relative;
+	user-select: none;
+	height: 3.2em;
+	font-size: 70%;
+}
+.chord.diagram {
+	height: calc(1.5em + (3.5 * var(--chord-diagram-font-size)))
+}
+.chord .inner {
+	position: absolute;
+	display: block;
+	left: 0;
+	bottom: 1.3em;
+}
+.chord i {
+	font-style: normal;
+	display: inline-block;
+}
+.chord i.diagram {
+	font: 100 var(--chord-diagram-font-size) Courier;
+	line-height: .5em;
+	position: absolute;
+	bottom: 0;
+	display: none;
+}
+.chord .inner:hover i.diagram,
+.chord.diagram i.diagram,
+.chord i.diagram.show {
+	display: inline-block;
+}
+.chord:not(.diagram) .inner:hover i.diagram {
+	background: white;
+	z-index: 5;
+}

@@ -3,7 +3,7 @@
 	"name": "Markdown Chords",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Converts chords ",
+	"description": "Converts chords in Markdown to lyric sheet chords with nice styles.",
 	"author": "David Hunt",
 	"authorUrl": "https://dnotes.net",
 	"isDesktopOnly": false

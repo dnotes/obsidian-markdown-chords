@@ -1,6 +1,6 @@
-import * as MarkdownIt from 'markdown-it';
+import MarkdownIt from 'markdown-it';
 // @ts-ignore
-import * as MarkdownItChords from 'markdown-it-chords'
+import MarkdownItChords from 'markdown-it-chords'
 import { App, Editor, MarkdownPostProcessorContext, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Setting } from 'obsidian';
 
 // Remember to rename these classes and interfaces!

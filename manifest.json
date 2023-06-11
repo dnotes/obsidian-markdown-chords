@@ -1,9 +1,9 @@
 {
 	"id": "obsidian-markdown-chords",
 	"name": "Markdown Chords",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"minAppVersion": "0.15.0",
-	"description": "Converts chords in Markdown to lyric sheet chords with nice styles.",
+	"description": "Add musical chord notation and chord diagrams for stringed instruments (e.g. guitar) in Markdown. Supports chords in any Western scale/mode, including extended jazz chords.",
 	"author": "David Hunt",
 	"authorUrl": "https://dnotes.net",
 	"isDesktopOnly": false

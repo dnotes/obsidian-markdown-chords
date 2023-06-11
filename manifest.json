@@ -1,7 +1,7 @@
 {
-	"id": "obsidian-markdown-chords",
+	"id": "markdown-chords",
 	"name": "Markdown Chords",
-	"version": "1.0.3",
+	"version": "1.04",
 	"minAppVersion": "0.15.0",
 	"description": "Add musical chord notation and chord diagrams for stringed instruments (e.g. guitar) in Markdown. Supports chords in any Western scale/mode, including extended jazz chords.",
 	"author": "David Hunt",

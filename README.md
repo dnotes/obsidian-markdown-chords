@@ -1,12 +1,18 @@
 ## Chords in Markdown ... in Obsidian
 
 This is a *very* barebones adaptation of [markdown-it-chords] as an [Obsidian] plugin.
-Please see [the markdown-it-chords demo] for full documentation on the chord syntax.
+Please see the [markdown-it-chords demo] for full documentation on the chord syntax.
+
+[markdown-it-chords]: https://github.com/dnotes/markdown-it-chords
+[Obsidian]: https://obsidian.md
+[markdown-it-chords demo]: https://dnotes.github.io/markdown-it-chords/
 
 ### Installation
 
 You can add this to your Obsidian install using the [BRAT community plugin].
 I plan to submit it for review and publication in the community plugins as well.
+
+[BRAT community plugin]: https://github.com/TfTHacker/obsidian42-brat
 
 ### Usage
 

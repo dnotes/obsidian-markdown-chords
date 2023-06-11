@@ -1,12 +1,9 @@
-:root {
-	--chord-diagram-font-size: 10px;
-}
 .chord {
 	display: inline-block;
 	position: relative;
 	user-select: none;
 	height: 3.2em;
-	font-size: 70%;
+	font-size: var(--chord-font-size);
 }
 .chord.diagram {
 	height: calc(1.5em + (3.5 * var(--chord-diagram-font-size)))
@@ -19,7 +16,11 @@
 }
 .chord i {
 	font-style: normal;
+	color: var(--chord-color);
 	display: inline-block;
+}
+.chord i.name {
+	font-weight: var(--chord-weight);
 }
 .chord i.diagram {
 	font: 100 var(--chord-diagram-font-size) Courier;
@@ -37,4 +38,3 @@
 	background: var(--background-primary-alt);
 	z-index: 5;
 }
-

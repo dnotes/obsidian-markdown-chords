@@ -34,6 +34,7 @@
 	display: inline-block;
 }
 .chord:not(.diagram) .inner:hover i.diagram {
-	background: white;
+	background: var(--background-primary-alt);
 	z-index: 5;
 }
+

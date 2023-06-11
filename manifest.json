@@ -1,7 +1,7 @@
 {
 	"id": "obsidian-markdown-chords",
 	"name": "Markdown Chords",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"minAppVersion": "0.15.0",
 	"description": "Converts chords in Markdown to lyric sheet chords with nice styles.",
 	"author": "David Hunt",
